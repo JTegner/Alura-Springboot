@@ -18,4 +18,8 @@
 <fullyQualifiedTypeName name="br.com.alura.forum.controller.dto.RespostaDto"/>
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
 <fullyQualifiedTypeName name="java.util.Optional"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.PageRequest"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Pageable"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
+<fullyQualifiedTypeName name="org.springframework.cache.annotation.Cacheable"/>
 </qualifiedTypeNameHistroy>
