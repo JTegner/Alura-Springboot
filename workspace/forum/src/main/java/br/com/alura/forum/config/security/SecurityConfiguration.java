@@ -49,6 +49,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.antMatchers(HttpMethod.GET, "/topicos").permitAll()
 		.antMatchers(HttpMethod.GET, "/topicos/*").permitAll()
 		.antMatchers(HttpMethod.POST, "/auth").permitAll()
+		.antMatchers(HttpMethod.GET, "/actuator/**").permitAll() //permitAll apenas para testar em producao tem que mudar porque devolve informacoes sensiveis sobre a apliacacao
 		.anyRequest().authenticated() // Essa configuração evita que uma URL que não foi configurada seja pública
 		//.and().formLogin(); //dessa forma o spring cria sessão
 		.and().csrf().disable()
@@ -56,6 +57,9 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 		.and().addFilterBefore(new AutenticacaoViaTokenFilter(tokenService, usuarioRepository), UsernamePasswordAuthenticationFilter.class);
 		//a classe UsernamePasswordAuthenticationFilter é o filtro padrão então vamos dizer
 		//para rodar a nossa classe AutenticacaoViaTokenFilter antes para pegar o token
+		
+		// ** significa os subdiretórios abaixo e todos os outros subdiretórios abaixo 
+		// senão só libera o /actuator por exemplo
 	}
 	
 	//configuracoes de recursos estaticos (css, javascript, imagens, etc...)

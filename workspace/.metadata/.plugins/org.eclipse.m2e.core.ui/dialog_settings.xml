@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="/home/jordano/ALURA/SpringBoot/workspace/spring-boot-admin"/>
 			<item value="/home/jordano/ALURA/SpringBoot/workspace/forum"/>
 		</list>
 		<list key="projectNameTemplate">
