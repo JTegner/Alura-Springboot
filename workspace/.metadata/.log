@@ -3780,3 +3780,63 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:28:54.501
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:28:54.503
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:28:54.504
+!MESSAGE buffering callback sts4.classpath.xJAdfJRs forum false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:28:54.504
+!MESSAGE executing callback sts4.classpath.xJAdfJRs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:28:54.533
+!MESSAGE executing callback sts4.classpath.xJAdfJRs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:08.150
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:08.156
+!MESSAGE classpath=127 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:08.157
+!MESSAGE buffering callback sts4.classpath.xJAdfJRs forum false 127
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:08.157
+!MESSAGE executing callback sts4.classpath.xJAdfJRs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:08.174
+!MESSAGE executing callback sts4.classpath.xJAdfJRs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:40.899
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:40.901
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:40.903
+!MESSAGE buffering callback sts4.classpath.xJAdfJRs forum false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:40.903
+!MESSAGE executing callback sts4.classpath.xJAdfJRs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:40.925
+!MESSAGE executing callback sts4.classpath.xJAdfJRs SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:43.087
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:43.090
+!MESSAGE classpath=128 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:43.090
+!MESSAGE buffering callback sts4.classpath.xJAdfJRs forum false 128
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:43.091
+!MESSAGE executing callback sts4.classpath.xJAdfJRs 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-10-24 10:29:43.112
+!MESSAGE executing callback sts4.classpath.xJAdfJRs SUCCESS [done]

@@ -66,6 +66,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 	//configurar aqui para o springboot nao interceptar esses arquivos
 	@Override
 	public void configure(WebSecurity web) throws Exception {
+	    web.ignoring()
+	        .antMatchers("/**.html", "/v2/api-docs", "/webjars/**", "/configuration/**", "/swagger-resources/**");
 	}
 	
 	
